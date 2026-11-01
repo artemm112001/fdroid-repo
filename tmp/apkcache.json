@@ -1,0 +1,49 @@
+{
+  "METADATA_VERSION": 20002,
+  "allow_disabled_algorithms": false,
+  "Converter-1.1.apk": {
+    "hash": "8157290d811ac9dfd3badfddb20d9bf2a8cf4907b5487d98418f0758845b6855",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "appinventor.ai_artemm1120012.ProjectSHP.1.png",
+      "480": "appinventor.ai_artemm1120012.ProjectSHP.1.png",
+      "320": "appinventor.ai_artemm1120012.ProjectSHP.1.png",
+      "240": "appinventor.ai_artemm1120012.ProjectSHP.1.png",
+      "160": "appinventor.ai_artemm1120012.ProjectSHP.1.png",
+      "0": "appinventor.ai_artemm1120012.ProjectSHP.1.png"
+    },
+    "antiFeatures": {},
+    "packageName": "appinventor.ai_artemm1120012.ProjectSHP",
+    "versionCode": 1,
+    "name": "\u041a\u043e\u043d\u0432\u0435\u0440\u0442\u0435\u0440",
+    "versionName": "1.1",
+    "minSdkVersion": 14,
+    "targetSdkVersion": 35,
+    "sig": "edd523f8a9dae209561f40a61f507176",
+    "signer": "a4c18a22195e8b177ddedaa52efc0bcc5619832f701710f430d93f3f0d9324c2",
+    "size": 4122206,
+    "apkName": "Converter-1.1.apk",
+    "icon": "appinventor.ai_artemm1120012.ProjectSHP.1.png",
+    "added": 1793522907.971004
+  }
+}
