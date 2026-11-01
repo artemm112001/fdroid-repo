@@ -56,7 +56,7 @@ sdk_path: /usr/lib/android-sdk
 # i.e. https://f-droid.org/packages/<appid>/ This should be accessible
 # with a browser. Setting it to null or not setting this disables the
 # feature.
-# repo_web_base_url: https://MyFirstFDroidRepo.org/packages/
+repo_web_base_url: https://artemm112001.github.io/fdroid-repo/repo
 #
 repo_name: Приложения ХБББР
 repo_description: Здесь размещены приложения от ХБББР и партнёров
