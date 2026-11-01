@@ -9,3 +9,4 @@ Name: Monogram
 SourceCode: 'https://github.com/monogram-android/monogram'
 Summary: 'Monogram — это невероятно быстрый, полностью нативный клиент Telegram для Android 7.0 и более новых версий'
 WebSite: 'https://monogram.maki.su/'
+License: GPL-3.0

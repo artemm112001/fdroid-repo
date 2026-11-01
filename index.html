@@ -4,14 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Репозиторий для F‑Droid: специальный набор приложений</title>
+  <!-- Подключаем стили из style.css -->
   <link rel="stylesheet" href="style.css" />
-  <!-- Подключаем библиотеку для парсинга YAML -->
+  <!-- Библиотека для парсинга YAML -->
   <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-content">
-      <a href="#" class="logo">FDroid‑Repo</a>
+      <a href="#" class="logo">Приложения ХБББР</a>
       <nav class="main-nav">
         <a href="#about">О репозитории</a>
         <a href="#apps">Приложения</a>
@@ -24,8 +25,8 @@
   <main>
     <section class="hero">
       <div class="container hero-content">
-        <h1>Специальный репозиторий для F‑Droid</h1>
-        <p class="hero-subtitle">Подборка приложений, включая особые случаи. Перед установкой ознакомьтесь с лицензиями.</p>
+        <h1>Репозиторий F-Droid от ХБББР</h1>
+        <p class="hero-subtitle">Приложения от разработчиков ХБББР, партнёров и не только.</p>
         <div class="cta-group">
           <a href="https://artemm112001.github.io/fdroid-repo/repo" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Ссылка на репозиторий</a>
           <a href="https://f-droid.org/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Сайт F‑Droid</a>
@@ -36,22 +37,22 @@
     <section id="about" class="section">
       <div class="container">
         <h2>О репозитории</h2>
-        <div class="grid-2">
-          <div class="card">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+          <div>
             <h3>Что здесь есть</h3>
-            <p>В репозитории собраны приложения, которые могут не подходить под строгие критерии F‑Droid, но полезны в определённых сценариях. Часть приложений — свободные, часть — с ограничениями по лицензии.</p>
+            <p>В репозитории собраны приложения, которые могут не подходить под строгие критерии F‑Droid, но полезны в определённых сценариях.</p>
           </div>
-          <div class="card">
+          <div>
             <h3>Важное предупреждение</h3>
-            <p>Официальный клиент F‑Droid может не отображать или не устанавливать некоторые приложения из этого репозитория. Используйте на свой риск и проверяйте лицензии.</p>
+            <p>Официальный клиент F‑Droid может не отображать или не устанавливать некоторые приложения. Используйте на свой риск и проверяйте лицензии.</p>
           </div>
-          <div class="card">
+          <div>
             <h3>Совместимость</h3>
             <p>Репозиторий технически совместим с форматом F‑Droid (метаданные, подписи), но не гарантирует соответствие политике F‑Droid.</p>
           </div>
-          <div class="card">
+          <div>
             <h3>Прозрачность</h3>
-            <p>Для каждого приложения указана информация о лицензии и источнике. Если данных нет — это повод не устанавливать приложение.</p>
+            <p>Для каждого приложения указана информация о лицензии и источнике. Если данных нет — это повод не устанавливать приложение.</p>
           </div>
         </div>
       </div>
@@ -63,7 +64,6 @@
         <p style="margin-bottom:24px; color:#555;">
           Список составлен на основе данных репозитория <a href="https://artemm112001.github.io/fdroid-repo/repo" target="_blank">artemm112001.github.io/fdroid-repo/repo</a>. Перед установкой проверьте лицензию и источник.
         </p>
-        <!-- Пустой контейнер: сюда JS будет вставлять карточки -->
         <div class="app-list"></div>
       </div>
     </section>
@@ -87,18 +87,22 @@
     <section id="contact" class="section bg-light">
       <div class="container">
         <h2>Контакты и поддержка</h2>
-        <div class="contact-grid">
-          <div class="contact-item">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+          <div>
             <strong>GitHub репозитория</strong>
             <p><a href="https://github.com/artemm112001/fdroid-repo" target="_blank" rel="noopener noreferrer">github.com/artemm112001/fdroid-repo</a></p>
           </div>
-          <div class="contact-item">
-            <strong>Email</strong>
-            <p>hbbbr@internet.ru</p>
+          <div>
+            <strong>E-mail</strong>
+            <p><a href="mailto:hbbbr@internet.ru" target="_blank" rel="noopener noreferrer">hbbbr@internet.ru</a></p>
           </div>
-          <div class="contact-item">
+          <div>
             <strong>Чат/обсуждение</strong>
-            <p>Уточните в README репозитория или на странице проекта.</p>
+            <p>Скоро добавим</p>
+          </div>
+          <div>
+            <strong>XMPP</strong>
+            <p><a href="xmpp:hbbbr@jappix.com" target="_blank" rel="noopener noreferrer">hbbbr@jappix.com</a></p>
           </div>
         </div>
       </div>
@@ -106,32 +110,48 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Репозиторий для F‑Droid. Приложения могут иметь разные лицензии.</p>
-      <p class="license-note">Всегда проверяйте лицензию и источник перед установкой.</p>
+    <div class="container" style="padding:20px 0; border-top:1px solid #eee;">
+      <p>&copy; 2026 Приложения ХБББР. Приложения могут иметь разные лицензии.</p>
+      <p class="license-note" style="color:#888; margin:0; font-size:0.9rem;">Всегда проверяйте лицензию и источник перед установкой.</p>
     </div>
   </footer>
 
+  <!-- Модальное окно (разметка) -->
+  <div class="modal-overlay" id="appModal">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modalTitle">—</h2>
+        <button class="close-btn" id="closeModalBtn">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Сюда JS будет вставлять описание, ссылки и т.п. -->
+      </div>
+      <div class="modal-footer">
+        <strong>⚠️ Внимание:</strong> Перед установкой обязательно проверьте лицензию, источник и политику F‑Droid.
+      </div>
+    </div>
+  </div>
+
+  <!-- Скрипт логики -->
   <script>
     const baseUrl = 'https://artemm112001.github.io/fdroid-repo';
     const metadataDir = '/metadata/';
-    const iconsDir = '/repo/icons-480/';
 
-const appFiles = [
-  "appinventor.ai_artemm1120012.ProjectSHP.yml",
-  "org.monogram.yml"
-];
+    // 👇 ВПИШИ СЮДА ВСЕ ФАЙЛЫ .YML ИЗ ПАПКИ metadata (ТОЧНО КАК В РЕПО) 👇
+    const appFiles = [
+      "appinventor.ai_artemm1120012.ProjectSHP.yml",
+      "org.monogram.yml"
+    ];
 
     async function loadApps() {
       const container = document.querySelector('.app-list');
-      container.innerHTML = '<p style="text-align:center">Загрузка списка приложений…</p>';
+      container.innerHTML = '<p style="text-align:center; padding:40px; color:#888;">Загрузка списка приложений…</p>';
 
       try {
         const apps = [];
 
         for (const file of appFiles) {
           const yamlUrl = `${baseUrl}${metadataDir}${file}`;
-
           const res = await fetch(yamlUrl);
           if (!res.ok) {
             console.warn(`Не удалось загрузить ${file} (${res.status}), пропускаем.`);
@@ -157,19 +177,21 @@ const appFiles = [
           apps.push({
             package: pkg,
             name: data.Name,
-            summary: data.Summary || '',
-            license: data.License || 'Неизвестно',
-            iconUrl: `${baseUrl}${iconsDir}${pkg}.1.png`
+            summary: data.Summary || 'Описание отсутствует',
+            description: data.Description || data.Summary || 'Подробное описание не указано.',
+            license: data.License || 'Лицензия не указана',
+            webSite: data.WebSite || null,
+            sourceCode: data.SourceCode || null
           });
         }
 
-        renderCards(apps, container);
+        renderList(apps, container);
 
       } catch (err) {
         console.error(err);
         if (window.location.protocol === 'file:') {
           container.innerHTML = `
-            <p style="text-align:center; color:#d00; max-width:600px; margin:20px auto;">
+            <p style="text-align:center; color:#d00; max-width:600px; margin:40px auto;">
               ⚠️ Ошибка CORS! Этот сайт нельзя открывать двойным кликом по файлу.<br><br>
               Варианты решения:<br>
               1. Залить на GitHub Pages (самый простой).<br>
@@ -177,47 +199,78 @@ const appFiles = [
               3. Использовать расширение Live Server в VS Code.
             </p>`;
         } else {
-          container.innerHTML = '<p style="text-align:center;color:#d00">Ошибка загрузки данных. Проверьте консоль браузера (F12).</p>';
+          container.innerHTML = '<p style="text-align:center;color:#d00">Ошибка загрузки данных</p>';
         }
       }
     }
 
-    function renderCards(apps, container) {
-      container.innerHTML = '';
+    function renderList(apps, container) {
       if (apps.length === 0) {
-        container.innerHTML = '<p style="text-align:center">Нет приложений для отображения.</p>';
+        container.innerHTML = '<p style="text-align:center;">Нет приложений для отображения</p>';
         return;
       }
 
-      apps.forEach(app => {
-        const card = document.createElement('div');
-        card.className = 'app-card';
+      container.innerHTML = apps.map(app => `
+        <div class="app-list-item" data-name="${app.name}" data-description="${app.description}" data-license="${app.license}" data-website="${app.webSite || ''}" data-source="${app.sourceCode || ''}">
+          <div class="app-title-row">
+            <div>
+              <h3 class="app-name">${app.name}</h3>
+              <div class="app-package">${app.package}</div>
+            </div>
+            <span class="license-badge">${app.license}</span>
+          </div>
+          <p class="app-summary" style="margin:0; color:#666; font-size:0.95rem;">${app.summary}</p>
+        </div>
+      `).join('');
 
-        const iconHtml = `
-          <div class="app-icon-wrapper">
-            <img src="${app.iconUrl}" alt="${escapeHtml(app.name)}" class="app-icon-img"
-              onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\"app-icon\">📦</div>'" />
-          </div>`;
-
-        card.innerHTML = `
-          ${iconHtml}
-          <h3>${escapeHtml(app.name)}</h3>
-          <p>${escapeHtml(app.summary)}</p>
-          <p><strong>Лицензия:</strong> ${escapeHtml(app.license)}</p>
-          <a href="#" class="btn btn-sm">Подробнее</a>`;
-
-        container.appendChild(card);
+      // Обработка кликов по карточкам
+      document.querySelectorAll('.app-list-item').forEach(item => {
+        item.addEventListener('click', () => openModal(item));
       });
-    }
 
-    function escapeHtml(text) {
-      if (!text) return '';
-      return text
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
+      const modal = document.getElementById('appModal');
+      const closeBtn = document.getElementById('closeModalBtn');
+
+      function openModal(el) {
+        const name = el.getAttribute('data-name');
+        const description = el.getAttribute('data-description');
+        const license = el.getAttribute('data-license');
+        const website = el.getAttribute('data-website');
+        const source = el.getAttribute('data-source');
+
+        document.getElementById('modalTitle').textContent = name;
+        let bodyHtml = `<p class="description-text">${description}</p>`;
+
+        if (website || source) {
+          bodyHtml += `<div class="links-grid">`;
+          if (website) {
+            bodyHtml += `<a href="${website}" target="_blank" rel="noopener noreferrer" class="link-btn btn-site">Сайт проекта</a>`;
+          } else {
+            bodyHtml += `<span style="color:#999; padding:10px; text-align:center;">—</span>`;
+          }
+          if (source) {
+            bodyHtml += `<a href="${source}" target="_blank" rel="noopener noreferrer" class="link-btn btn-src">Исходный код</a>`;
+          } else {
+            bodyHtml += `<span style="color:#999; padding:10px; text-align:center;">—</span>`;
+          }
+          bodyHtml += `</div>`;
+        }
+
+        bodyHtml += `<p><strong>Лицензия:</strong> <span style="background:#eee; padding:2px 6px; border-radius:4px;">${license}</span></p>`;
+        document.getElementById('modalBody').innerHTML = bodyHtml;
+
+        modal.classList.add('show');
+      }
+
+      closeBtn.addEventListener('click', () => {
+        modal.classList.remove('show');
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.remove('show');
+        }
+      });
     }
 
     loadApps();
