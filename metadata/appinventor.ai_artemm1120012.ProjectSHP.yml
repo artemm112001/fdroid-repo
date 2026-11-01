@@ -1,10 +1,11 @@
 AuthorName: 'Артём Хомячок'
 Categories:
-- fdroid-repo
+- Utility
 CurrentVersionCode: 2147483647
 IssueTracker: ''
 Name: "\u041A\u043E\u043D\u0432\u0435\u0440\u0442\u0435\u0440"
 SourceCode: ''
-Summary: ''
+Summary: 'Удобный конвертер единиц измерения и курсов валют'
 WebSite: 'https://artemm112001.github.io/converter'
+License: Proprietary
 Description: Это приложение позволяет конвертировать величины, такие как масса, объём, длина, площадь, а также конвертировать курсы валют в соответствие с сайтом Центрального Банка РФ cbr.ru
