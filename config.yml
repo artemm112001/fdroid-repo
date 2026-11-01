@@ -58,8 +58,8 @@ sdk_path: /usr/lib/android-sdk
 # feature.
 # repo_web_base_url: https://MyFirstFDroidRepo.org/packages/
 #
-# repo_name: Приложения ХБББР
-# repo_description: >-
+repo_name: Приложения ХБББР
+repo_description: Здесь размещены приложения от ХБББР и партнёров
 #   This is a repository of apps to be used with F-Droid. Applications
 #   in this repository are either official binaries built by the
 #   original application developers, or are binaries built from source
