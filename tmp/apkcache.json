@@ -302,5 +302,102 @@
     "apkName": "\u0411\u0430\u043d\u043a \u0425\u0411\u0411\u0411\u0420 v0.9.1.apk",
     "icon": "appinventor.ai_hbbbr010.platipay.1.png",
     "added": 1793795267.434714
+  },
+  "\u0411\u0430\u043d\u043a \u0425\u0411\u0411\u0411\u0420 v0.9.2.apk": {
+    "hash": "688279c9dc641ab5878db19ed6a0054f93ec00ce16788c973f1e7382209a7359",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        29
+      ],
+      [
+        "android.webkit.resource.VIDEO_CAPTURE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.webkit.resource.AUDIO_CAPTURE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.ACCESS_DOWNLOAD_MANAGER",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "appinventor.ai_hbbbr010.platipay.2.png",
+      "480": "appinventor.ai_hbbbr010.platipay.2.png",
+      "320": "appinventor.ai_hbbbr010.platipay.2.png",
+      "240": "appinventor.ai_hbbbr010.platipay.2.png",
+      "160": "appinventor.ai_hbbbr010.platipay.2.png",
+      "0": "appinventor.ai_hbbbr010.platipay.2.png"
+    },
+    "antiFeatures": {},
+    "packageName": "appinventor.ai_hbbbr010.platipay",
+    "versionCode": 2,
+    "name": "\u0411\u0430\u043d\u043a \u0425\u0411\u0411\u0411\u0420",
+    "versionName": "0.9.2",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 36,
+    "sig": "724cd8a4f90f7329e20f7d0e91a0f0db",
+    "signer": "c652567bf90436c255d77521a1748eda3da0c7eef30ecc6a4ceb0dbcc23f2aaa",
+    "size": 4269406,
+    "apkName": "\u0411\u0430\u043d\u043a \u0425\u0411\u0411\u0411\u0420 v0.9.2.apk",
+    "icon": "appinventor.ai_hbbbr010.platipay.2.png",
+    "added": 1793990400.249928
   }
 }
